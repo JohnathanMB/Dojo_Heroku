@@ -3,8 +3,9 @@
     <title>Prueba Heroku</title>
 </head>
 <body>
-    <?php    
-    echo '<p>Hola Mundo Heroku</p>', $_GET['name'] ; 
+    <?php 
+    $name = $_GET['name'];   
+    echo '<p>Hola Mundo $name Heroku</p>' ; 
     ?>
 </body>
 </html>
